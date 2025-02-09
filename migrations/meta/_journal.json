@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1739119598806,
+      "tag": "0000_flippant_living_lightning",
+      "breakpoints": true
+    }
+  ]
+}
