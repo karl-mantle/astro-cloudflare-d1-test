@@ -1,6 +1,7 @@
 # wrangler.toml
 node_compat = true
 main = "./dist/_worker.js/index.js"
+name = "astro-cloudflare-d1-test"
 
 [[d1_databases]]
 binding = "DB"
