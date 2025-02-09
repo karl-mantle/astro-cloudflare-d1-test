@@ -1,0 +1,15 @@
+# wrangler.toml
+node_compat = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "d1-demo-prod-db"
+database_id = "a94ffff9-d368-4ac2-9d57-1da0fc02404d"
+preview_database_id = "DB"
+
+[env.preview]
+name = "preview"
+[[env.preview.d1_databases]]
+binding = "DB"
+database_name = "d1-demo-preview-db"
+database_id = "30341782-9f44-42f2-a186-9a1ae80e6c7f"
