@@ -2,7 +2,7 @@
 node_compat = true
 main = "./dist/_worker.js/index.js"
 name = "astro-cloudflare-d1-test"
-
+compatibility_date = "2024-11-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "d1-demo-prod-db"
